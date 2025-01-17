@@ -1,0 +1,29 @@
+comandos git
+
+git init: iniciar git
+touch: criar um arquivo
+rm -r (nome arquivo): excluir um arquivo
+cd (nomepasta): ir até a pasta
+cd ..: voltar para outra pasta
+git status: ver o que foi alterado
+git add (nome arquivo ou .): adicionar para fazer commit
+git commit -m "sobre o commit": fazer o commit
+mkdir: criar uma nova subpasta
+git log: ver os commits feitos
+git log  --oneline: códigos dos commits
+git checkout (código commit): voltar no commit desejado
+git checkout master: voltar pro commit atual
+git revert (código commit): desfazer um commit
+git reset (Código commit): voltar para outro commit e excluir o que foi feito depois dele
+git ignore (nome arquivo): ignorar o arquivo quando for feito os commits
+git branch: lista das que existem
+git branch (nome da branch): cria outra baseada na principal
+git checkout (nome da branch): entrar em outra branch
+git branch -d (nome branch): pra deletar uma branch
+git merge (branch): para integrar a branch a master
+git push (ssh repositório): subir todo o código já feito para um repositório
+git remote add origin (ssh repositório): adicionar origin como atalho pra mandar pro repositório
+git remote -v: saber se origin já está configurado
+git push origin (nome branch): adicionar código feito ao repositório
+git clone (ssh do repositório): clonar um repositório no computador
+git pull origin master: antes de começar a programar, dar um pull para puxar todas as alterações
